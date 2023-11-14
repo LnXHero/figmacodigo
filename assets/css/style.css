@@ -73,7 +73,7 @@ nav {
 .header-container {
     height: 700px;
     width: 100%;
-    display: flex; 
+    display: flex;
     background-image: url(../img/lnx-padrao.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ nav {
     font-size: 76px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;    
+    line-height: normal;
 }
 
 .header-container p {
@@ -97,4 +97,158 @@ nav {
     color: #FFF;
     font-size: 30px;
     margin-top: 50px;
+}
+
+.algumacoisa {
+    padding: 5em 0;
+}
+
+.algumacoisa ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.algumacoisa ul li {
+    list-style: none;
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.algumacoisa ul li p {
+    line-height: 24px;
+}
+
+.algumacoisa ul li h3 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.fas {
+    font-size: 80px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.fa-shield-halved {
+    /* color: #56C244; */
+    color: #850076;
+}
+
+.fa-rocket {
+    /* color: #AE2323; */
+    color: #9c008a;
+}
+
+.fa-comments {
+    /* color: #ED7621; */
+    color: #850076;
+}
+
+.precos-container {
+    padding-bottom: 5em;
+    text-align: center;
+    /* background-color: #f8f8f8; */
+}
+
+.precos-container h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.precos-container {
+    font-size: 20px;
+}
+
+.plano-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plano {
+    flex: 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plano ul {
+    padding: 0;
+}
+
+.plano ul li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #D6D6D6;
+}
+
+.plano .preco {
+    background-color: #46a435;
+    border-radius: 50%;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -70px;
+    position: relative;
+}
+
+.plano .nome-plano {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #222222;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    height: 120px;
+}
+
+
+.btn-padrao,
+.btn-dedicado,
+.btn-cloud {
+    color: white;
+    width: 100%;
+    height: 43px;
+    transition: 0.3s;
+    background-color: #46a435;
+    border-style: none;
+}
+
+.btn-padrao:hover,
+.btn-dedicado:hover,
+.btn-cloud:hover {
+    background-color: #367f29;
+}
+
+.btn-dedicadoPlus {
+    color: white;
+    width: 100%;
+    height: 43px;
+    transition: 0.3s;
+    background-color: #d10000;
+    border-style: none;
+}
+
+.btn-dedicadoPlus:hover {
+    background-color: #a90000;
+}
+
+.plano .lnx-red {
+    background-color: #d10000;
 }
