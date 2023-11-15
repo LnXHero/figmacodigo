@@ -11,7 +11,7 @@
 <body>
     <div class="navbar-container">
         <nav>
-            <a href="#"><img src="assets/img/lnx-png.png" alt="logo do site"></a>
+            <a href="#"><img src="assets/img/lnx-png.png" alt="logo do site" id="home"></a>
             <ul class="navbar-itens">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#planos">PLANOS</a></li>
@@ -99,9 +99,30 @@
                 </ul>
             </div>
         </div>
-        <i class="fa fas fa-circle-up"></i>
+        <a href="#home"><i class="fa fas fa-circle-up"></i></a>
     </section>
-
+    <section class="buscar-dominio">
+        <h2>Buscar um Dominio</h2>
+        <p>Veja se o dominio que você deseja está disponivel</p>
+        <form action="">
+            <input type="text" placeholder="Digite o dominio desejado">
+            <input type="submit" value="Buscar Dominio">
+        </form>
+    </section>
+    <section class="contato-container">
+        <h2>Entre em contato</h2>
+        <p>Entre em contato para avaliarmos sua melhor hospedagem</p>
+        <form action="">
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+            <textarea name="message" placeholder="Digite sua mensagem" required ></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="#home"><i class="fas fa-circle-up 2x"></i></a>
+    </section>
+    <footer>
+        <p>&copy; Direitos a LnX Store, estamos esperando você contratar nosso atendimento</p>
+    </footer>
 
 
     <script src="https://kit.fontawesome.com/4b68439ca5.js" crossorigin="anonymous"></script>

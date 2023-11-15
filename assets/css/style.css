@@ -252,3 +252,92 @@ nav {
 .plano .lnx-red {
     background-color: #d10000;
 }
+
+.buscar-dominio {
+    background-color: #000000;
+    margin-left: 142px;
+    margin-right: 142px;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.buscar-dominio p {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.buscar-dominio h2 {
+    font-size: 42px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+
+.buscar-dominio input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.buscar-dominio input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buscar-dominio input[type=submit] {
+    background: #850076;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 34px;
+    font-weight: 600;
+}
+
+.contato-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contato-container h2 {
+    font-size: 36px;
+}
+
+.contato-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contato-container input,
+.contato-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contato-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+    height: 150px;
+}
+
+footer {
+    height: 58px;
+    background-color: #212121;
+    text-align: center;
+    color: white;
+    line-height: 58px;
+}
